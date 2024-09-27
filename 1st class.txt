@@ -6,7 +6,6 @@ cd 파일명
 * 설정
 git config --list 에서 확인 가능
 
-
 *기본 설정
 git config user.email 이메일주소
 git config user.name 이름
@@ -15,13 +14,11 @@ git config user.name 이름
 git config --global user.email 이메일주소
 git config --global user.name 이름
 
-
 *사용할 폴더에서 Git 초기화 ==> main 생성
 git init
 
 *소스 작성 후 상태 확인
 git status
-
 
 <VS CODE에서 사용 가능>
 *커밋 하기 위해서 준비단계(스테이징)로 파일을 이동
@@ -29,7 +26,6 @@ git add 파일명
 
 *현재 경로에 변경된 모든 파일을 스테이징으로 이동
 git add .
-
 
 <VS CODE에서 사용 가능>
 *커밋하기
@@ -41,7 +37,6 @@ git commit -m '장바구니 기능 추가'
 
 ※가장 최근 커밋 메시지 변경하기
 git commit --amend -m '커밋메시지 '
-
 
 <VS CODE에서 사용 가능>
 *현재 커밋된 내역을 취소하고 싶으면? (Revert 이력 남음)
@@ -74,7 +69,6 @@ git pull origin main
 *pull 하다가 충돌나면
 git pull origin 브런치명 --allow-unrelated-histories
 
-
 *집에가서 gitHub 에 있는 코드 내려받기
 내려받을 폴더로 이동
 
@@ -82,8 +76,7 @@ git pull origin 브런치명 --allow-unrelated-histories
 
 <다른사람 깃허브 이용시>
 
-*마우스 오른쪽 -> Git Bash Here 로 터미널 창 켜기
-아래 명령어 실행 ==> git clone URL 받기
+*폴더 생성 -> Git Bash 터미널 창 켜기 -> 아래 명령어 실행 -> git clone + URL(상대방)
 
 *파일 내려받기 --> 상대방 깃허브 수정시 바로 이용 가능
 git pull origin
